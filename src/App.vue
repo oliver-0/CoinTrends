@@ -5,10 +5,9 @@
       <h1>CoinTrends</h1>
     </header>
     <main>
-      <div>
-      </div>
+      <div />
     </main>
-      <site-footer />
+    <site-footer />
   </div>
 </template>
 
