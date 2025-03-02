@@ -5,16 +5,14 @@
       <h1>CoinTrends</h1>
     </header>
     <main>
-      <div>
-      </div>
+      <div />
     </main>
-    <footer>
-    </footer>
+    <site-footer />
   </div>
 </template>
 
 <script setup lang="ts">
-
+import SiteFooter from '@/components/SiteFooter.vue';
 </script>
 
 <style scoped lang="scss">
