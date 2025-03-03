@@ -1,9 +1,10 @@
 <template>
   <header>
-    <div class="header-left">
+    <div class="header-left" />
+    <div class="header-middle">
       <img src="@/assets/images/cointrends.svg" alt="CoinTrends logo">
+      <h1>CoinTrends</h1>
     </div>
-    <h1>CoinTrends</h1>
     <div class="header-right">
       <div id="portfolio-links">
         <a
@@ -29,18 +30,18 @@ header {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  .header-left {
-    display: flex;
-    justify-content: flex-end;
+  .header-middle {
+    display: inline-grid;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
     img {
       height: 2rem;
       margin-right: 0.5rem;
     }
-  }
-  h1 {
-    font-family: 'Changa', sans-serif;
-    font-size: 2.5rem;
+    h1 {
+      font-family: 'Changa', sans-serif;
+      font-size: 2.5rem;
+    }
   }
   .header-right {
     display: flex;
